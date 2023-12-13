@@ -13,7 +13,7 @@ function jumpHandler() {
 let frontend = document.querySelector('#frontend')
 
 frontend.addEventListener("click", function () {
-  frontend.classList.add("changeColor");
+  frontend.classList.toggle("changeColor");
 })
 
 // Button 2 'Design' Dubble Click Event
@@ -21,7 +21,7 @@ frontend.addEventListener("click", function () {
 let design = document.querySelector('#design')
 
 design.addEventListener("dblclick", function () {
-  design.classList.add("changeColor");
+  design.classList.toggle("changeColor");
 })
 
 // Button 3 'And' Click Event
@@ -29,7 +29,7 @@ design.addEventListener("dblclick", function () {
 let and = document.querySelector('#and')
 
 and.addEventListener("click", function () {
-  and.classList.add("changeColor");
+  and.classList.toggle("changeColor");
 })
 
 // Button 4 'Development' Click Event
@@ -40,8 +40,6 @@ development.addEventListener("click", move)
 function move(){
   development.classList.toggle("move");
 };
-
-
 
 // let development = document.querySelector('#development')
 
