@@ -81,6 +81,10 @@ a:nth-of-type(12) {
 /* Jouw animaties */
 
 .changeColor {
-  background:#ff1100;
+  background:#1e5af1;
   color: #050840;
+}
+
+.keydown {
+  background: #1e5af1;
 }
