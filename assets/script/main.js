@@ -8,7 +8,7 @@ function jumpHandler() {
 }
 
 
-// Button 'Frontend' Click Event
+// Button 1 'Frontend' Click Event
 
 let frontend = document.querySelector('#frontend')
 
@@ -16,7 +16,7 @@ frontend.addEventListener("click", function () {
   frontend.classList.add("changeColor");
 })
 
-// Button 'Design' Dubble Click Event
+// Button 2 'Design' Dubble Click Event
 
 let design = document.querySelector('#design')
 
@@ -24,7 +24,7 @@ design.addEventListener("dblclick", function () {
   design.classList.add("changeColor");
 })
 
-// Button 'And' Click Event
+// Button 3 'And' Click Event
 
 let and = document.querySelector('#and')
 
@@ -32,18 +32,22 @@ and.addEventListener("click", function () {
   and.classList.add("changeColor");
 })
 
-// Button 'Development'
+// Button 4 'Development' Click Event
 
-let development = document.querySelector('#development')
+let development = document.querySelector('a:nth-of-type(4)')
 
-and.addEventListener("keydown", function () {
-  and.classList.add ("keydown")
-})
+development.addEventListener("click", move)
+function move(){
+  development.classList.toggle("move");
+};
+
+
+
+// let development = document.querySelector('#development')
 
 // eventTarget.addEventListener("keydown", (event) => {
 //   let development (event.isComposing | event.keyCode === 229) 
 //   {
 //     return;
 //   }
-//   // do something
 // });

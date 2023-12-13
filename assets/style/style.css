@@ -80,11 +80,21 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 
+/* Button 1 2 3 */
+
 .changeColor {
   background:#1e5af1;
   color: #050840;
 }
 
-.keydown {
+/* Button 4 */
+
+a:nth-of-type(4) {
   background: #1e5af1;
+  border-color: #050840;
+}
+
+.move {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
